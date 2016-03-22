@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/searchview_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"/>
+
+    <ImageView
+        android:id="@+id/delete_text_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:src="@android:drawable/presence_offline"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/searchview_icon"
+        android:layout_toLeftOf="@+id/delete_text_icon"
+        android:background="@android:color/transparent"
+        android:hint="Search Location"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        android:textColorHint="@color/common_signin_btn_light_text_focused"/>
+
+</RelativeLayout>
