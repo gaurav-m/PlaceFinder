@@ -13,6 +13,6 @@ Google Maps
 Google Place
 Google Place Photos
 
-Have attached a demo video and has also added the api in root folder. Just an FYI.
+Have attached a demo video and has also added the apk in root folder. Just an FYI.
 Let me know if it needs changes. Or make a PR instead :)
 
